@@ -58,7 +58,7 @@ console.log(palavra.slice(2,5));
 console.log(palavra.replace('Um', 'Outro'));
 console.log(palavra)
 
-
+ 
 
 
 
