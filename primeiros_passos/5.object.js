@@ -18,4 +18,22 @@ console.log(aluno['nome']);
 
 aluno.olaAluno();
 
+// factory de alunos
+function criaAluno(nome, sobrenome, matricula){
+    return {
+        nome,
+        sobrenome,
+        matricula
+    }
+}
+
+const alunoCriado = 
+    criaAluno('Maria', 'da Silva', '2023000123');
+
+console.log(alunoCriado);
+
+
+
+
+
 

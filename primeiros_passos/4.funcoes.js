@@ -56,7 +56,7 @@ const somaEmFuncaoSeta = (num1, num2) => {
 }
 const somaRefatorada = (num1, num2) => num1 + num2;
 const somaUma = num1 => {
-    return num1 + 1;
+    return num1 + 1; 
 }
 const somaUmRefatorada = num1 => num1 + 1;
 const somaConstante = () => {
