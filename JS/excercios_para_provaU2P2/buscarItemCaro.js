@@ -1,6 +1,6 @@
-function buscarItemCaro(precos) {
+function buscarItemCaro(precos, valorCaro ) {
     let indexItemCaro = 0;
-    const precoReferencia = 500;
+    const precoReferencia = valorCaro;
     while(indexItemCaro < precos.length 
         && precos[indexItemCaro] < precoReferencia){
         indexItemCaro += 1;
